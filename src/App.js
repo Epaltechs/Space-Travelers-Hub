@@ -1,19 +1,19 @@
-// import './styles/MyProfile.css';
-// import './styles/Rockets.css';
-// import './styles/Missions.css';
-// import './styles/Header.css';
+import './styles/MyProfile.css';
+import './styles/Rockets.css';
+import './styles/Missions.css';
+import './styles/Header.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import MyProfile from './components/MyProfile';
-// import Rockets from './components/Rockets';
-// import Missions from './components/Missions';
+import Rockets from './components/Rockets';
+import Missions from './components/Missions';
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        {/* <Route
+        <Route
           path="/"
           element={(
             <Rockets />
@@ -24,7 +24,7 @@ function App() {
           element={(
             <Missions />
         )}
-        /> */}
+        />
         <Route
           path="/myprofile"
           element={(
