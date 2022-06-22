@@ -1,0 +1,44 @@
+02c3950d3b1f3a20662da6a8b537fa54
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/space_travelers_hub/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _react = require("@testing-library/react");
+
+var _reactRouterDom = require("react-router-dom");
+
+require("@testing-library/jest-dom");
+
+var _reactRedux = require("react-redux");
+
+var _MyProfile = _interopRequireDefault(require("../components/MyProfile"));
+
+var _configureStore = _interopRequireDefault(require("../redux/configureStore"));
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\space_travelers_hub\\src\\__test__\\MyProFile.test.js";
+describe('MyProfile tests', () => {
+  test('should render', () => {
+    const myprofile = (0, _react.render)( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_reactRedux.Provider, {
+      store: _configureStore.default,
+      children: [/*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_reactRouterDom.BrowserRouter, {
+        children: /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_MyProfile.default, {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 11
+        }, void 0)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 9
+      }, void 0), ","]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }, void 0));
+    expect(myprofile).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZXNjcmliZSIsInRlc3QiLCJteXByb2ZpbGUiLCJyZW5kZXIiLCJzdG9yZSIsImV4cGVjdCIsInRvTWF0Y2hTbmFwc2hvdCJdLCJzb3VyY2VzIjpbIk15UHJvRmlsZS50ZXN0LmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHJlbmRlciB9IGZyb20gJ0B0ZXN0aW5nLWxpYnJhcnkvcmVhY3QnO1xuaW1wb3J0IHsgQnJvd3NlclJvdXRlciB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xuaW1wb3J0ICdAdGVzdGluZy1saWJyYXJ5L2plc3QtZG9tJztcbmltcG9ydCB7IFByb3ZpZGVyIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xuaW1wb3J0IE15UHJvZmlsZSBmcm9tICcuLi9jb21wb25lbnRzL015UHJvZmlsZSc7XG5pbXBvcnQgc3RvcmUgZnJvbSAnLi4vcmVkdXgvY29uZmlndXJlU3RvcmUnO1xuXG5kZXNjcmliZSgnTXlQcm9maWxlIHRlc3RzJywgKCkgPT4ge1xuICB0ZXN0KCdzaG91bGQgcmVuZGVyJywgKCkgPT4ge1xuICAgIGNvbnN0IG15cHJvZmlsZSA9IHJlbmRlcihcbiAgICAgIDxQcm92aWRlciBzdG9yZT17c3RvcmV9PlxuICAgICAgICA8QnJvd3NlclJvdXRlcj5cbiAgICAgICAgICA8TXlQcm9maWxlIC8+XG4gICAgICAgIDwvQnJvd3NlclJvdXRlcj5cbiAgICAgICAgLFxuICAgICAgPC9Qcm92aWRlcj4sXG4gICAgKTtcblxuICAgIGV4cGVjdChteXByb2ZpbGUpLnRvTWF0Y2hTbmFwc2hvdCgpO1xuICB9KTtcbn0pO1xuIl0sIm1hcHBpbmdzIjoiOzs7O0FBQUE7O0FBQ0E7O0FBQ0E7O0FBQ0E7O0FBQ0E7O0FBQ0E7Ozs7O0FBRUFBLFFBQVEsQ0FBQyxpQkFBRCxFQUFvQixNQUFNO0VBQ2hDQyxJQUFJLENBQUMsZUFBRCxFQUFrQixNQUFNO0lBQzFCLE1BQU1DLFNBQVMsR0FBRyxJQUFBQyxhQUFBLGdCQUNoQiwyQkFBQyxvQkFBRDtNQUFVLEtBQUssRUFBRUMsdUJBQWpCO01BQUEsd0JBQ0UsMkJBQUMsNkJBQUQ7UUFBQSx1QkFDRSwyQkFBQyxrQkFBRDtVQUFBO1VBQUE7VUFBQTtRQUFBO01BREY7UUFBQTtRQUFBO1FBQUE7TUFBQSxVQURGO0lBQUE7TUFBQTtNQUFBO01BQUE7SUFBQSxVQURnQixDQUFsQjtJQVNBQyxNQUFNLENBQUNILFNBQUQsQ0FBTixDQUFrQkksZUFBbEI7RUFDRCxDQVhHLENBQUo7QUFZRCxDQWJPLENBQVIifQ==

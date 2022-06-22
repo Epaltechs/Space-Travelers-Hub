@@ -1,0 +1,44 @@
+3437e6de3629462be5dd0d594b72f8ac
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/space_travelers_hub/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _react = require("@testing-library/react");
+
+var _reactRouterDom = require("react-router-dom");
+
+require("@testing-library/jest-dom");
+
+var _reactRedux = require("react-redux");
+
+var _Missions = _interopRequireDefault(require("../components/Missions"));
+
+var _configureStore = _interopRequireDefault(require("../redux/configureStore"));
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\space_travelers_hub\\src\\__test__\\Missions.test.js";
+describe('Missions tests', () => {
+  test('should render', () => {
+    const missions = (0, _react.render)( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_reactRedux.Provider, {
+      store: _configureStore.default,
+      children: [/*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_reactRouterDom.BrowserRouter, {
+        children: /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_Missions.default, {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 11
+        }, void 0)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 9
+      }, void 0), ","]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 7
+    }, void 0));
+    expect(missions).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZXNjcmliZSIsInRlc3QiLCJtaXNzaW9ucyIsInJlbmRlciIsInN0b3JlIiwiZXhwZWN0IiwidG9NYXRjaFNuYXBzaG90Il0sInNvdXJjZXMiOlsiTWlzc2lvbnMudGVzdC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZW5kZXIgfSBmcm9tICdAdGVzdGluZy1saWJyYXJ5L3JlYWN0JztcclxuaW1wb3J0IHsgQnJvd3NlclJvdXRlciB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xyXG5pbXBvcnQgJ0B0ZXN0aW5nLWxpYnJhcnkvamVzdC1kb20nO1xyXG5pbXBvcnQgeyBQcm92aWRlciB9IGZyb20gJ3JlYWN0LXJlZHV4JztcclxuaW1wb3J0IE1pc3Npb25zIGZyb20gJy4uL2NvbXBvbmVudHMvTWlzc2lvbnMnO1xyXG5pbXBvcnQgc3RvcmUgZnJvbSAnLi4vcmVkdXgvY29uZmlndXJlU3RvcmUnO1xyXG5kZXNjcmliZSgnTWlzc2lvbnMgdGVzdHMnLCAoKSA9PiB7XHJcbiAgdGVzdCgnc2hvdWxkIHJlbmRlcicsICgpID0+IHtcclxuICAgIGNvbnN0IG1pc3Npb25zID0gcmVuZGVyKFxyXG4gICAgICA8UHJvdmlkZXIgc3RvcmU9e3N0b3JlfT5cclxuICAgICAgICA8QnJvd3NlclJvdXRlcj5cclxuICAgICAgICAgIDxNaXNzaW9ucyAvPlxyXG4gICAgICAgIDwvQnJvd3NlclJvdXRlcj5cclxuICAgICAgICAsXHJcbiAgICAgIDwvUHJvdmlkZXI+LFxyXG4gICAgKTtcclxuICAgIGV4cGVjdChtaXNzaW9ucykudG9NYXRjaFNuYXBzaG90KCk7XHJcbiAgfSk7XHJcbn0pOyJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOzs7OztBQUNBQSxRQUFRLENBQUMsZ0JBQUQsRUFBbUIsTUFBTTtFQUMvQkMsSUFBSSxDQUFDLGVBQUQsRUFBa0IsTUFBTTtJQUMxQixNQUFNQyxRQUFRLEdBQUcsSUFBQUMsYUFBQSxnQkFDZiwyQkFBQyxvQkFBRDtNQUFVLEtBQUssRUFBRUMsdUJBQWpCO01BQUEsd0JBQ0UsMkJBQUMsNkJBQUQ7UUFBQSx1QkFDRSwyQkFBQyxpQkFBRDtVQUFBO1VBQUE7VUFBQTtRQUFBO01BREY7UUFBQTtRQUFBO1FBQUE7TUFBQSxVQURGO0lBQUE7TUFBQTtNQUFBO01BQUE7SUFBQSxVQURlLENBQWpCO0lBUUFDLE1BQU0sQ0FBQ0gsUUFBRCxDQUFOLENBQWlCSSxlQUFqQjtFQUNELENBVkcsQ0FBSjtBQVdELENBWk8sQ0FBUiJ9

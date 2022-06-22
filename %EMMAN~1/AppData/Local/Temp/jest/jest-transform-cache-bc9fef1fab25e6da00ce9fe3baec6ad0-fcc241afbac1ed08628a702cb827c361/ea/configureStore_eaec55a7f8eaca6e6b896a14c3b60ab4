@@ -1,0 +1,28 @@
+ec80c9e64898e1ff009b3e681a3862fd
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/space_travelers_hub/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _redux = require("redux");
+
+var _reduxLogger = _interopRequireDefault(require("redux-logger"));
+
+var _reduxThunk = _interopRequireDefault(require("redux-thunk"));
+
+var _missions = _interopRequireDefault(require("./missions/missions"));
+
+var _rockets = _interopRequireDefault(require("./rockets/rockets"));
+
+const reducer = (0, _redux.combineReducers)({
+  missionsReducer: _missions.default,
+  rocketsReducer: _rockets.default
+});
+const store = (0, _redux.createStore)(reducer, (0, _redux.applyMiddleware)(_reduxLogger.default, _reduxThunk.default));
+var _default = store;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJyZWR1Y2VyIiwiY29tYmluZVJlZHVjZXJzIiwibWlzc2lvbnNSZWR1Y2VyIiwicm9ja2V0c1JlZHVjZXIiLCJzdG9yZSIsImNyZWF0ZVN0b3JlIiwiYXBwbHlNaWRkbGV3YXJlIiwibG9nZ2VyIiwidGh1bmsiXSwic291cmNlcyI6WyJjb25maWd1cmVTdG9yZS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVTdG9yZSwgY29tYmluZVJlZHVjZXJzLCBhcHBseU1pZGRsZXdhcmUgfSBmcm9tICdyZWR1eCc7XHJcbmltcG9ydCBsb2dnZXIgZnJvbSAncmVkdXgtbG9nZ2VyJztcclxuaW1wb3J0IHRodW5rIGZyb20gJ3JlZHV4LXRodW5rJztcclxuaW1wb3J0IG1pc3Npb25zUmVkdWNlciBmcm9tICcuL21pc3Npb25zL21pc3Npb25zJztcclxuaW1wb3J0IHJvY2tldHNSZWR1Y2VyIGZyb20gJy4vcm9ja2V0cy9yb2NrZXRzJztcclxuXHJcbmNvbnN0IHJlZHVjZXIgPSBjb21iaW5lUmVkdWNlcnMoe1xyXG4gIG1pc3Npb25zUmVkdWNlciwgcm9ja2V0c1JlZHVjZXIsXHJcbn0pO1xyXG5cclxuY29uc3Qgc3RvcmUgPSBjcmVhdGVTdG9yZShcclxuICByZWR1Y2VyLCBhcHBseU1pZGRsZXdhcmUobG9nZ2VyLCB0aHVuayksXHJcbik7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBzdG9yZTtcclxuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQSxNQUFNQSxPQUFPLEdBQUcsSUFBQUMsc0JBQUEsRUFBZ0I7RUFDOUJDLGVBQWUsRUFBZkEsaUJBRDhCO0VBQ2JDLGNBQWMsRUFBZEE7QUFEYSxDQUFoQixDQUFoQjtBQUlBLE1BQU1DLEtBQUssR0FBRyxJQUFBQyxrQkFBQSxFQUNaTCxPQURZLEVBQ0gsSUFBQU0sc0JBQUEsRUFBZ0JDLG9CQUFoQixFQUF3QkMsbUJBQXhCLENBREcsQ0FBZDtlQUllSixLIn0=

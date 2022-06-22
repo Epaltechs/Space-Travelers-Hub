@@ -1,0 +1,60 @@
+d5a493da1aee0a6e18fadc4ce7facbf7
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/space_travelers_hub/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactRedux = require("react-redux");
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\space_travelers_hub\\src\\components\\missionsComponent\\missionsProfile.js";
+
+const MissionProfile = () => {
+  const missions = (0, _reactRedux.useSelector)(state => state.missionsReducer.missions);
+  const missionsFiltered = missions.filter(mission => mission.reserved === true);
+  return /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)("div", {
+    className: "reserve-container-top",
+    children: [/*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)("h1", {
+      children: "My Missions"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 7
+    }, void 0), /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)("div", {
+      className: "reserve-container",
+      children: [missionsFiltered.length === 0 && /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)("p", {
+        children: "No Reserved Missions"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 44
+      }, void 0), missionsFiltered.map(mission => /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)("h3", {
+        className: "reserve-item",
+        children: mission.name
+      }, mission.id, false, {
+        fileName: _jsxFileName,
+        lineNumber: 13,
+        columnNumber: 11
+      }, void 0))]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 7
+    }, void 0)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 5
+  }, void 0);
+};
+
+var _default = MissionProfile;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJNaXNzaW9uUHJvZmlsZSIsIm1pc3Npb25zIiwidXNlU2VsZWN0b3IiLCJzdGF0ZSIsIm1pc3Npb25zUmVkdWNlciIsIm1pc3Npb25zRmlsdGVyZWQiLCJmaWx0ZXIiLCJtaXNzaW9uIiwicmVzZXJ2ZWQiLCJsZW5ndGgiLCJtYXAiLCJuYW1lIiwiaWQiXSwic291cmNlcyI6WyJtaXNzaW9uc1Byb2ZpbGUuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IHVzZVNlbGVjdG9yIH0gZnJvbSAncmVhY3QtcmVkdXgnO1xuXG5jb25zdCBNaXNzaW9uUHJvZmlsZSA9ICgpID0+IHtcbiAgY29uc3QgbWlzc2lvbnMgPSB1c2VTZWxlY3Rvcigoc3RhdGUpID0+IHN0YXRlLm1pc3Npb25zUmVkdWNlci5taXNzaW9ucyk7XG4gIGNvbnN0IG1pc3Npb25zRmlsdGVyZWQgPSBtaXNzaW9ucy5maWx0ZXIoKG1pc3Npb24pID0+IG1pc3Npb24ucmVzZXJ2ZWQgPT09IHRydWUpO1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwicmVzZXJ2ZS1jb250YWluZXItdG9wXCI+XG4gICAgICA8aDE+TXkgTWlzc2lvbnM8L2gxPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJyZXNlcnZlLWNvbnRhaW5lclwiPlxuICAgICAgICB7IG1pc3Npb25zRmlsdGVyZWQubGVuZ3RoID09PSAwICYmIDxwPk5vIFJlc2VydmVkIE1pc3Npb25zPC9wPn1cbiAgICAgICAge21pc3Npb25zRmlsdGVyZWQubWFwKChtaXNzaW9uKSA9PiAoXG4gICAgICAgICAgPGgzIGtleT17bWlzc2lvbi5pZH0gY2xhc3NOYW1lPVwicmVzZXJ2ZS1pdGVtXCI+e21pc3Npb24ubmFtZX08L2gzPlxuICAgICAgICApKX1cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICApO1xufTtcbmV4cG9ydCBkZWZhdWx0IE1pc3Npb25Qcm9maWxlO1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTs7QUFDQTs7Ozs7O0FBRUEsTUFBTUEsY0FBYyxHQUFHLE1BQU07RUFDM0IsTUFBTUMsUUFBUSxHQUFHLElBQUFDLHVCQUFBLEVBQWFDLEtBQUQsSUFBV0EsS0FBSyxDQUFDQyxlQUFOLENBQXNCSCxRQUE3QyxDQUFqQjtFQUNBLE1BQU1JLGdCQUFnQixHQUFHSixRQUFRLENBQUNLLE1BQVQsQ0FBaUJDLE9BQUQsSUFBYUEsT0FBTyxDQUFDQyxRQUFSLEtBQXFCLElBQWxELENBQXpCO0VBQ0Esb0JBQ0U7SUFBSyxTQUFTLEVBQUMsdUJBQWY7SUFBQSx3QkFDRTtNQUFBO0lBQUE7TUFBQTtNQUFBO01BQUE7SUFBQSxVQURGLGVBRUU7TUFBSyxTQUFTLEVBQUMsbUJBQWY7TUFBQSxXQUNJSCxnQkFBZ0IsQ0FBQ0ksTUFBakIsS0FBNEIsQ0FBNUIsaUJBQWlDO1FBQUE7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBLFVBRHJDLEVBRUdKLGdCQUFnQixDQUFDSyxHQUFqQixDQUFzQkgsT0FBRCxpQkFDcEI7UUFBcUIsU0FBUyxFQUFDLGNBQS9CO1FBQUEsVUFBK0NBLE9BQU8sQ0FBQ0k7TUFBdkQsR0FBU0osT0FBTyxDQUFDSyxFQUFqQjtRQUFBO1FBQUE7UUFBQTtNQUFBLFVBREQsQ0FGSDtJQUFBO01BQUE7TUFBQTtNQUFBO0lBQUEsVUFGRjtFQUFBO0lBQUE7SUFBQTtJQUFBO0VBQUEsVUFERjtBQVdELENBZEQ7O2VBZWVaLGMifQ==

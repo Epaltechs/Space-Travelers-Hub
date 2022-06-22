@@ -1,0 +1,44 @@
+315130bcad1ecc8f9a5d9358b718099c
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/space_travelers_hub/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _react = require("@testing-library/react");
+
+var _reactRouterDom = require("react-router-dom");
+
+require("@testing-library/jest-dom");
+
+var _reactRedux = require("react-redux");
+
+var _Rockets = _interopRequireDefault(require("../components/Rockets"));
+
+var _configureStore = _interopRequireDefault(require("../redux/configureStore"));
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\space_travelers_hub\\src\\__test__\\Rockets.test.js";
+describe('Rockets tests', () => {
+  test('should render', () => {
+    const rockets = (0, _react.render)( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_reactRedux.Provider, {
+      store: _configureStore.default,
+      children: [/*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_reactRouterDom.BrowserRouter, {
+        children: /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_Rockets.default, {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 11
+        }, void 0)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 9
+      }, void 0), ","]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }, void 0));
+    expect(rockets).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZXNjcmliZSIsInRlc3QiLCJyb2NrZXRzIiwicmVuZGVyIiwic3RvcmUiLCJleHBlY3QiLCJ0b01hdGNoU25hcHNob3QiXSwic291cmNlcyI6WyJSb2NrZXRzLnRlc3QuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVuZGVyIH0gZnJvbSAnQHRlc3RpbmctbGlicmFyeS9yZWFjdCc7XG5pbXBvcnQgeyBCcm93c2VyUm91dGVyIH0gZnJvbSAncmVhY3Qtcm91dGVyLWRvbSc7XG5pbXBvcnQgJ0B0ZXN0aW5nLWxpYnJhcnkvamVzdC1kb20nO1xuaW1wb3J0IHsgUHJvdmlkZXIgfSBmcm9tICdyZWFjdC1yZWR1eCc7XG5pbXBvcnQgUm9ja2V0cyBmcm9tICcuLi9jb21wb25lbnRzL1JvY2tldHMnO1xuaW1wb3J0IHN0b3JlIGZyb20gJy4uL3JlZHV4L2NvbmZpZ3VyZVN0b3JlJztcblxuZGVzY3JpYmUoJ1JvY2tldHMgdGVzdHMnLCAoKSA9PiB7XG4gIHRlc3QoJ3Nob3VsZCByZW5kZXInLCAoKSA9PiB7XG4gICAgY29uc3Qgcm9ja2V0cyA9IHJlbmRlcihcbiAgICAgIDxQcm92aWRlciBzdG9yZT17c3RvcmV9PlxuICAgICAgICA8QnJvd3NlclJvdXRlcj5cbiAgICAgICAgICA8Um9ja2V0cyAvPlxuICAgICAgICA8L0Jyb3dzZXJSb3V0ZXI+XG4gICAgICAgICxcbiAgICAgIDwvUHJvdmlkZXI+LFxuICAgICk7XG5cbiAgICBleHBlY3Qocm9ja2V0cykudG9NYXRjaFNuYXBzaG90KCk7XG4gIH0pO1xufSk7XG4iXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7Ozs7QUFFQUEsUUFBUSxDQUFDLGVBQUQsRUFBa0IsTUFBTTtFQUM5QkMsSUFBSSxDQUFDLGVBQUQsRUFBa0IsTUFBTTtJQUMxQixNQUFNQyxPQUFPLEdBQUcsSUFBQUMsYUFBQSxnQkFDZCwyQkFBQyxvQkFBRDtNQUFVLEtBQUssRUFBRUMsdUJBQWpCO01BQUEsd0JBQ0UsMkJBQUMsNkJBQUQ7UUFBQSx1QkFDRSwyQkFBQyxnQkFBRDtVQUFBO1VBQUE7VUFBQTtRQUFBO01BREY7UUFBQTtRQUFBO1FBQUE7TUFBQSxVQURGO0lBQUE7TUFBQTtNQUFBO01BQUE7SUFBQSxVQURjLENBQWhCO0lBU0FDLE1BQU0sQ0FBQ0gsT0FBRCxDQUFOLENBQWdCSSxlQUFoQjtFQUNELENBWEcsQ0FBSjtBQVlELENBYk8sQ0FBUiJ9
