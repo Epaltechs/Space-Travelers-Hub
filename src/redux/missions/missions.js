@@ -1,6 +1,6 @@
 const FETCH_MISSIONS = 'missions/missionSlice/FETCH_MISSIONS';
 const FETCH_MISSIONS_SUCCESS = 'missions/missionSlice/FETCH_MISSIONS_SUCCESS';
-// const FETCH_MISSIONS_ERROR = 'missions/missionSlice/FETCH_MISSIONS_ERROR';
+const FETCH_MISSIONS_ERROR = 'missions/missionSlice/FETCH_MISSIONS_ERROR';
 const MISSIONS_JOINED = 'missions/missionSlice/MISSIONS_JOINED';
 const MISSIONS_LEFT = 'missions/missionSlice/MISSIONS_LEFT';
 
@@ -20,7 +20,7 @@ const initialState = {
   error: null,
 };
 
-export const populateMissions = (myMissions) => {
+const populateMissions = (myMissions) => {
   const missionArr = [];
   for (let i = 0; i < myMissions.length; i += 1) {
     missionArr.push({
@@ -69,6 +69,18 @@ export const missionsLeft = (state, id) => {
 
 const missionReducer = (state = initialState, action) => {
   switch (action.type) {
+    case FETCH_MISSIONS:
+      return { ...state, loading: true };
+    case FETCH_MISSIONS_SUCCESS:
+      populateMissions(action.myMissions);
+      return { ...state, loading: false, missions: populateMissions(action.myMissions) };
+    case FETCH_MISSIONS_ERROR:
+      return { ...state, loading: false, error: action.error };
+    case MISSIONS_JOINED:
+      return { ...state, missions: JoinedMissions(state.missions, action.payload) };
+    case MISSIONS_LEFT:
+      return { ...state, missions: missionsLeft(state.missions, action.payload) };
+
     default:
       return state;
   }
