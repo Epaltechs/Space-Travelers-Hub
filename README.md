@@ -1,14 +1,17 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Traveller
-React & Redux group capstone project. This project is done on module 3, week 4 of the Microverse full-stack development program.
+# Space Traveler's Hub
+
+## Description
+
+In this project, we work with a real live data from the SpaceX API to build a web application for a company that provides commercial and scientific space travel services. This application also allows users to book rockets and join selected space missions.
 
 
-# Requirements for this project
+
+## Requirements for this project
 
 Please find the requirements for this project [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/group-project/project_space_travelers_hub.md).
 
-# screenshot 
+## screenshots
 Rockets Page
 ![Screenshot1](src/asset/demo3.png)
 
