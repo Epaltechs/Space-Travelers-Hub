@@ -11,7 +11,7 @@ In this project, we work with a real live data from the SpaceX API to build a we
 
 Please find the requirements for this project [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/group-project/project_space_travelers_hub.md).
 
-## screenshots
+## Screenshots
 Rockets Page
 ![Screenshot1](src/asset/demo3.png)
 
