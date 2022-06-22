@@ -10,13 +10,13 @@ Please find the requirements for this project [here](https://github.com/microver
 
 # screenshot 
 Rockets Page
-![Screenshot1](src/assets/demo3.jpg)
+![Screenshot1](src/asset/demo3.jpg)
 
 Missions Page
-![Screenshot2](src/assets/demo1.jpg)
+![Screenshot2](src/asset/demo1.jpg)
 
 Profile Page
-![Screenshot3](src/assets/demo2.jpg)
+![Screenshot3](src/asset/demo2.jpg)
 
 
 ## Technologies
