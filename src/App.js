@@ -1,5 +1,5 @@
-import './styles/MyProfile.css';
-import './styles/Rockets.css';
+// import './styles/MyProfile.css';
+// import './styles/Rockets.css';
 import './styles/Missions.css';
 import './styles/Header.css';
 import { Routes, Route } from 'react-router-dom';
