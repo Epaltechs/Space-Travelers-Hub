@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Space Traveller
+React & Redux group capstone project. This project is done on module 3, week 4 of the Microverse full-stack development program.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Requirements for this project
 
-### `npm start`
+Please find the requirements for this project [here](https://github.com/microverseinc/curriculum-react-redux/blob/main/group-project/project_space_travelers_hub.md).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# screenshot 
+Rockets Page
+![Screenshot1](src/assets/demo3.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Missions Page
+![Screenshot2](src/assets/demo1.jpg)
 
-### `npm test`
+Profile Page
+![Screenshot3](src/assets/demo2.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML
+- CSS & SASS
+- JS (ES6)
+- React
+- Redux
+- JEST & React testing library
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo
+You can find the live demo on [Netlify](https://starlit-kashata-f9136c.netlify.app). 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👤 **Happen Mathebula**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [https://github.com/HSMathebula](https://github.com/HSMathebula)
+- LinkedIn: [www.linkedin.com/in/happen-sipho-mathebula](www.linkedin.com/in/happen-sipho-mathebula)
+- Twitter: [https://twitter.com/HappenSipho](https://twitter.com/HappenSipho)
+- Email: [mathebulahappen8@gmail.com](mailto:mathebulahappen8@gmail.com)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👤 **Emmanuel Paul**
 
-## Learn More
+- GitHub: [https://github.com/Epaltechs](https://github.com/Epaltechs)
+- LinkedIn: [https://www.linkedin.com/in/emmanuel-s-paul](https://www.linkedin.com/in/emmanuel-s-paul)
+- Twitter: [https://twitter.com/@emmapaul247](https://twitter.com/@emmapaul247)
+- Email: [emmapaul247@gmail.com](mailto:emmapaul247@gmail.com)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Show your support
 
-### Analyzing the Bundle Size
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](LICENSE) licensed.
