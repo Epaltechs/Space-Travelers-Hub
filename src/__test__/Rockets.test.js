@@ -2,19 +2,20 @@ import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
-import Missions from '../components/Missions';
+import Rockets from '../components/Rockets';
 import store from '../redux/configureStore';
 
-describe('Missions tests', () => {
+describe('Rockets tests', () => {
   test('should render', () => {
-    const missions = render(
+    const rockets = render(
       <Provider store={store}>
         <BrowserRouter>
-          <Missions />
+          <Rockets />
         </BrowserRouter>
         ,
       </Provider>,
     );
-    expect(missions).toMatchSnapshot();
+
+    expect(rockets).toMatchSnapshot();
   });
 });
