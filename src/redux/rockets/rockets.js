@@ -35,6 +35,16 @@ export const fetchRocketApi = () => async (dispatch) => {
   dispatch(fetchRocket(rockets));
 };
 
+// rocket-booking
+
+const reserveCancelRocket = (state, payload) => {
+  const newState = state.map((rocket) => {
+    if (rocket.id !== payload) return rocket;
+    return { ...rocket, reserved: !rocket.reserved };
+  });
+  return newState;
+};
+
 // state
 const initialState = [];
 
@@ -43,6 +53,8 @@ const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_ROCKET:
       return action.payload;
+    case BOOK_ROCKET:
+      return reserveCancelRocket(state, action.payload);
     default:
       return state;
   }
